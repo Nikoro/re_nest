@@ -1,16 +1,15 @@
-# re_nest
+# ReNest
+<img align="right" src="https://github.com/Nikoro/re_nest/blob/master/demo.gif" alt="A demo illustraating the UI of the app" width="288" height="512" style="display: inline; float: right"/>
 
-A new Flutter application.
+ReNest is a Flutter to-do-list application. It allows to:
 
-## Getting Started
+1. Add a new task (from the list of available tasks)
+2. Mark the task as completed
+3. Search for any tasks
 
-This project is a starting point for a Flutter application.
+### Libraries
+* [Flutter Bloc][bloc] - state management
+* [Moor][moor] - database
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[bloc]: https://bloclibrary.dev/#/
+[moor]: https://moor.simonbinder.eu/
